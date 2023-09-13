@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidenav Buttons</title>
+    <style>
+        /* Styling for the left navbar */
+        .navbar {
+            background-color: transparent; 
+            color: #fff; 
+            width: 100px;
+            padding: 20px 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        /* Styling for the sidenav buttons */
+        .sidenav-button {
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 0 25px 25px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Button colors */
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .light-black {
+            background-color: #333; 
+            color: #fff; 
+        }
+
+        /* Hover effect for sidenav buttons */
+        .sidenav-button:hover {
+            background-color: #555; 
+        }
+
+        /* Styling for the page content */
+        .page-content {
+            margin-left: 120px; 
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="sidenav-button green"></div>
+        <div class="sidenav-button blue"></div>
+        <div class="sidenav-button red"></div>
+        <div class="sidenav-button light-black"></div>
+    </div>
+
+    <div class="page-content">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <p>Hover over the buttons on the left side of the navigation to open them.</p>
+    </div>
+</body>
+</html>

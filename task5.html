@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form in Table</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <table border="2">
+            <tr>
+                <td><label for="first_name">First Name:</label></td>
+                <td><input type="text" id="first_name" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" id="last_name" name="last_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">Confirm Password:</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Age">Age:</label></td>
+                <td><input type="number" id="Age" name="Age" required></td>
+            </tr>
+            <tr>
+                <td><label for="Phone Number">Phone Number:</label></td>
+                <td><input type="number" id="Phone Number" name="Phone Number" required></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><input type="text" id="Address" name="Address" required></td>
+            </tr>
+            <tr>
+                <td><label for="State">State:</label></td>
+                <td><input type="text" id="State"" name="State" required></td>
+            </tr>
+            <tr>
+                <td><label for="Country">country:</label></td>
+                <td><select id="gender" name="gender">
+                    <option value="male">Choose your country</option>
+                    <option value="female">India</option>
+                    <option value="other">Other</option>
+                </select</td>
+            </tr>
+            <tr>
+                <td><label>Language known:</label></td>
+                <td>
+                    <input type="checkbox" id="English"  value="English">
+                    <label for="English">English</label>
+                    <input type="checkbox" id="Kannada"  value="Kannada">
+                    <label for="English">Kannada</label>
+                    <input type="checkbox" id="Hindi"  value="Hindi">
+                    <label for="English">Hindi</label>
+                    <input type="checkbox" id="Telugu"  value="Telugu">
+                    <label for="English">Telugu</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

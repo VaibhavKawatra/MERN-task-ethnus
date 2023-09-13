@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Styled Page</title>
+    <style>
+        /* Styling for the page background */
+        body {
+            background-color: yellow;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: black; 
+        }
+
+        /* Styling for the side navigation */
+        .sidenav {
+            background-color: white;
+            width: 100px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            overflow-y: auto;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 15px;
+            text-decoration: none;
+            color: black; 
+            display: block;
+            background-color: white;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .sidenav a:hover {
+            background-color: black; 
+            color: white; 
+        }
+
+        /* Styling for the page content */
+        .page-content {
+            margin-left: 120px; 
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Side Navigation -->
+    <nav class="sidenav">
+        <a href="#">Homepage</a>
+        <a href="#">Musings</a>
+        <a href="#">MyTown</a>
+        <a href="#">Links</a>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <h1>My First Styled Page</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, enim ex tenetur alias, repudiandae ut maiores obcaecati neque quisquam at saepe unde consectetur sint beatae quibusdam laboriosam? Maxime, ex impedit!</p>
+        <p>Vaibhav Kawatra, WEB developer</p>
+    </div>
+</body>
+</html>

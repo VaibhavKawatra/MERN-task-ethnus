@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bars</title>
+    <style>
+        /* Vertical Navigation Bar */
+        .navbar-vertical {
+            width: 200px;
+            background-color: #f0f0f0;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        .navbar-vertical a.home {
+            display: block;
+            background-color: orange;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .navbar-vertical a {
+            display: block;
+            background-color: #f5f5f5; /* Light gray background for other links */
+            color: #333; /* Dark gray text color */
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .navbar-vertical a:hover {
+            background-color: #ddd; /* Slightly darker gray on hover */
+        }
+
+        /* Horizontal Navigation Bar */
+        .navbar-horizontal {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* White text color */
+            padding: 10px;
+        }
+
+        .navbar-horizontal a.home {
+            background-color: darkgrey;
+        }
+
+        .navbar-horizontal a {
+            background-color: #ccc; /* Light gray background for other links */
+            color: #333; /* Dark gray text color */
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .navbar-horizontal a:hover {
+            background-color: #999; /* Slightly darker gray on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-vertical">
+        <a href="#" class="home">Home</a>
+        <a href="#">JAVA</a>
+        <a href="#">CSS</a>
+        <a href="#">Bootstrap</a>
+    </div>
+
+    <div class="navbar-horizontal">
+        <a href="#" class="home">Home</a>
+        <a href="#">JAVA</a>
+        <a href="#">CSS</a>
+        <a href="#">Bootstrap</a>
+    </div>
+</body>
+</html>
